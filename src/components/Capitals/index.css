@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.capitals-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  height: 100vh;
+}
+.capitals-list-container {
+  background-color: #f8fafc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 50px;
+  min-width: 40%;
+}
+.captial-heading {
+  color: #323f4b;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 26px;
+}
+@media screen and (min-width: 768px) {
+  .captial-heading {
+    font-size: 34px;
+  }
+}
+.capitals-select {
+  height: 45px;
+  width: 180px;
+  padding-left: 10px;
+  border-radius: 4px;
+  border-color: #cbd2d9;
+  margin-right: 10px;
+  outline: none;
+}
+.capital-is {
+  color: #000000;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px;
+}
+.capital-city-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.capital-question {
+  color: #323f4b;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+}
+.country-name {
+  color: #1e293b;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 28px;
+}
